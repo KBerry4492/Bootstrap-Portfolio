@@ -2,13 +2,24 @@ body{
 	background-image: url("../images/sayagata-400px.png");
 }
 
+.mainPanel{
+	padding-bottom: 10px; 
+}
 
 .PPlink{
       background-color: #4aaae5;
       border: solid black 1px;
       margin: 10px 0px;
+      max-width: 150px;
+      max-height: 150px;
       
     }
+
+ .PphBg{
+ 	border: solid #4aaaa5 1px;
+    margin: 10px 0px;
+
+ }
 
 #pPic{
 	margin-right: 20px;
@@ -30,7 +41,7 @@ body{
 	position: absolute;
 	bottom: 20px;
 	
-	width: 92%;
+	width: 86%;
 	/*Oddly enough, perfectly sized for the sm breakpoint*/
 	height: auto;
 	display: block;
